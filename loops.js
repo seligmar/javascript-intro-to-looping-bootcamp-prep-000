@@ -24,7 +24,8 @@ function incrementVariable() {
 }
 do { 
   incrementVariable(); 
-  return array.pop();   
+  array.pop();   
 } 
 while (array.length > 0 && incrementVariable());
 } 
+return array 
