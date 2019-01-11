@@ -23,8 +23,8 @@ function incrementVariable() {
   i -= 1; 
 }
 do { 
-  incrementVariable()
-  return array.pop(i);   
+  incrementVariable(); 
+  array.pop();   
 } 
 while (array.length > 0 && incrementVariable());
 } 
