@@ -21,10 +21,10 @@ function doWhileLoop(array) {
   var i = array.length;
 function incrementVariable() {
   i -= 1; 
-  return array; 
 }
 do { 
   incrementVariable() 
 } 
-while (array.length > 0 && incrementVariable()); 
+while (array.length > 0 && incrementVariable());
+return array.pop[i]
 } 
