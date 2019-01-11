@@ -24,7 +24,7 @@ function incrementVariable() {
 }
 do { 
   incrementVariable(); 
-  return array.shift[i];   
+  return array.shift();   
 } 
 while (array.length > 0 && incrementVariable());
 } 
