@@ -26,5 +26,5 @@ do {
   incrementVariable() 
 } 
 while (array.length > 0 && incrementVariable());
-return array.pop[i]
+return array.pop()
 } 
